@@ -1,30 +1,28 @@
 @charset "utf-8";
 
 @font-face {
-    font-family: 'GmarketSans';
+    font-family: 'SourceCodePro';
     font-style: normal;
     font-weight: 700;
-    src: url(fonts/GmarketSansBold.woff2) format('woff2'),
-        url(fonts/GmarketSansBold.woff) format('woff'),
-        url(fonts/GmarketSansBold.otf) format('opentype'),
+    src: url(fonts/SourceCodePro-Bold.woff2) format('woff2'),
+        url(fonts/SourceCodePro-Bold.woff) format('woff'),
+        url(fonts/SourceCodePro-Bold.otf) format('opentype'),
 }
 
-
 @font-face {
-    font-family: 'GmarketSans';
+    font-family: 'SourceCodePro';
     font-style: normal;
-    font-weight: 500;
-    src: url(fonts/GmarketSansMedium.woff2) format('woff2'),
-        url(fonts/GmarketSansMedium.woff) format('woff'),
-        url(fonts/GmarketSansMedium.otf) format('opentype');
+    font-weight: 400;
+    src: url(fonts/SourceCodePro-Regular.woff2) format('woff2'),
+        url(fonts/SourceCodePro-Regular.woff) format('woff'),
+        url(fonts/SourceCodePro-Regular.otf) format('opentype'),
 }
 
 @font-face {
-    font-family: 'GmarketSans';
+    font-family: 'SourceCodePro';
     font-style: normal;
     font-weight: 300;
-    src: url(fonts/GmarketSansLight.woff2) format('woff2'),
-        url(fonts/GmarketSansLight.woff) format('woff'),
-        url(fonts/GmarketSansLight.otf) format('opentype');
+    src: url(fonts/SourceCodePro-ExtraLight.woff2) format('woff2'),
+        url(fonts/SourceCodePro-ExtraLight.woff) format('woff'),
+        url(fonts/SourceCodePro-ExtraLight.otf) format('opentype'),
 }
-
