@@ -26,3 +26,21 @@
         url(fonts/SourceCodePro-ExtraLight.woff) format('woff'),
         url(fonts/SourceCodePro-ExtraLight.otf) format('opentype'),
 }
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo';
+    font-style: normal;
+    font-weight: 700;
+    src: url(fonts/SpoqaHanSansNeo-Bold.woff2) format('woff2'),
+        url(fonts/SpoqaHanSansNeo-Bold.woff) format('woff'),
+        url(fonts/SpoqaHanSansNeo-Bold.otf) format('opentype'),
+}
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/SpoqaHanSansNeo-Regular.woff2) format('woff2'),
+        url(fonts/SpoqaHanSansNeo-Regular.woff) format('woff'),
+        url(fonts/SpoqaHanSansNeo-Regular.otf) format('opentype'),
+}
