@@ -28,8 +28,6 @@
 
 /* 가운데영역 */
 .container{max-width: 1310px; padding: 0 20px; margin: 0 auto;}
-
-#section02{}
 #section02 .cardLinkWrap{display: flex; height: 50.52vw;}
 #section02 .cardLinkWrap li{padding: 8.59vw 0 0 5.21vw; position: relative; flex: 1; background: no-repeat center/cover; transition: all .5s; cursor: pointer;}
 #section02 .cardLinkWrap li.box01{height: 100%; background-image: url(../images/main01.jpg);}
@@ -46,6 +44,44 @@
 #section02 .cardLinkWrap li:hover .view{width: 14.58vw;}
 #section02 .cardLinkWrap li:hover .view::after{left: auto; transform: translateY(-50%); right:1.67vw;}
 #section02 .cardLinkWrap li:hover .view .hoverText{ opacity: 1; display: block; padding: 0 0 0 1.67vw; color: #fff; font-size: 0.94vw; font-weight: 200; transition: all .2s .3s;}
+
+@media (max-width: 768px){
+
+    #section02 .cardLinkWrap{display: block; height: auto;}
+    #section02 .cardLinkWrap li{ padding: 50px 20px 150px 50px;}
+    #section02 .cardLinkWrap li .subText{margin-bottom: 15px; font-size: 14px;}
+    #section02 .cardLinkWrap li h2{margin-bottom: 15px; font-size: 48px;}
+    #section02 .cardLinkWrap li p{font-size: 16px;}
+    #section02 .cardLinkWrap li .view{bottom: 30px; left: 50px; width: 32px; height: 32px; border-radius: 50px;}
+    #section02 .cardLinkWrap li .view .hoverText{display: none!important;}
+    #section02 .cardLinkWrap li .view::after{width: 12px; height: 8px; top: 51%;}
+    #section02 .cardLinkWrap li:hover .view::after{left: 50%; transform: translate(-50%, -50%); right: auto!important;}
+    #section02 .cardLinkWrap li:hover .view {width: 32px;}
+    
+}
+
+@media (max-width: 480px){
+
+    #section02 .cardLinkWrap li{ padding: 50px 30px 150px 35px;}
+    #section02 .cardLinkWrap li h2{font-size: 42px;}
+    #section02 .cardLinkWrap li p{font-size: 14px;}
+    #section02 .cardLinkWrap li .view{left: 35px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* section03 */
 #section03{padding: 133px 0 123px; background-color: #f5f5f5;}
