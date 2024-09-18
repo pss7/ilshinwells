@@ -26,8 +26,6 @@
 }
 
 
-/* 가운데영역 */
-.container{max-width: 1310px; padding: 0 20px; margin: 0 auto;}
 #section02 .cardLinkWrap{display: flex; height: 50.52vw;}
 #section02 .cardLinkWrap li{padding: 8.59vw 0 0 5.21vw; position: relative; flex: 1; background: no-repeat center/cover; transition: all .5s; cursor: pointer;}
 #section02 .cardLinkWrap li.active.box{height: 100vh!important;}
@@ -56,13 +54,12 @@
     #section02 .cardLinkWrap li .subText{margin-bottom: 3vw;}
     #section02 .cardLinkWrap li{padding: 5.5vw 0 0 4vw;}
     
-
 }
 
 @media (max-width: 768px){
 
     #section02 .cardLinkWrap{display: block; height: auto;}
-    #section02 .cardLinkWrap li{ padding: 50px 20px 150px 50px;}
+    #section02 .cardLinkWrap li{ padding: 50px 20px 300px 50px;}
     #section02 .cardLinkWrap li .subText{margin-bottom: 15px; font-size: 14px;}
     #section02 .cardLinkWrap li h2{margin-bottom: 15px; font-size: 48px;}
     #section02 .cardLinkWrap li p{font-size: 16px;}
@@ -81,7 +78,7 @@
 /* section03 */
 #section03{padding: 133px 0 123px; background-color: #f5f5f5;}
 #section03 .titleWrap{margin-bottom: 96px;}
-#section03 .titleWrap .subText{color: #897e66;}
+#section03 .titleWrap .subText{display: block; color: #897e66;}
 #section03 .technologySlideWrap{margin-left: calc(50% - 787px);}
 #section03 .technologySlideWrap .technologySlide{width: 845px; margin-right: 225px;}
 #section03 .technologySlideWrap .technologySlide .box{display: flex; gap: 60px; }

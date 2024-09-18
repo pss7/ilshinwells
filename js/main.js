@@ -1,5 +1,11 @@
 $(function () {
 
+    /* aos */
+    $(window).load(function () {
+        AOS.init({
+            duration: 1500
+        });
+    });
 
     /* section03 - slick */
     $('#section03 .technologySlideWrap .technologySlideBox').slick({
@@ -18,15 +24,6 @@ $(function () {
         ]
     });
 
-    /* section03 - slick */
-    /*
-    $('#section03 .imgSlickWrap .imgSlick').slick({
-        infinite: true,
-        slidesToShow: 1,
-        arrows : false, 
-    });
-*/
-
     /* section04 - slick */
     $('#section04 .tidingsSlideWrap .slick').slick({
         infinite: true,
@@ -43,8 +40,5 @@ $(function () {
             },
         ]
     });
-
-
-
 
 });
