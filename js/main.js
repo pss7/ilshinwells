@@ -7,6 +7,11 @@ $(function () {
         });
     });
 
+    $('#section03 .technologySlideWrap .technologySlideBox').on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        var i = (currentSlide ? currentSlide : 0) + 1;
+        $('#section03 .technologySlideWrap .count').html('<em>' + i + '</em> ' + slick.slideCount);
+    });
+
     /* section03 - slick */
     $('#section03 .technologySlideWrap .technologySlideBox').slick({
         infinite: true,

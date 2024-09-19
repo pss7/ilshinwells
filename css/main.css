@@ -79,7 +79,10 @@
 #section03{padding: 133px 0 123px; background-color: #f5f5f5;}
 #section03 .titleWrap{margin-bottom: 96px;}
 #section03 .titleWrap .subText{display: block; color: #897e66;}
-#section03 .technologySlideWrap{margin-left: calc(50% - 787px);}
+#section03 .technologySlideWrap .count{position: absolute; top:49%; left:-34px; display: flex; align-items: center; gap: 13px; font-weight: 500; color: #979797; line-height: 1; transform: rotate(-90deg);}
+#section03 .technologySlideWrap .count em{position: relative; color: #1f1f1f;}
+#section03 .technologySlideWrap .count em::after{content: '/'; position: absolute; top:0; right:-11px; color: #979797;}
+#section03 .technologySlideWrap{position: relative; margin-left: calc(50% - 846px);}
 #section03 .technologySlideWrap .technologySlide{width: 845px; margin-right: 225px;}
 #section03 .technologySlideWrap .technologySlide .box{display: flex; gap: 60px; }
 #section03 .technologySlideWrap .imgWrap{align-self: flex-start; flex-shrink: 0; border-radius: 50px; overflow: hidden;}
@@ -95,7 +98,7 @@
 @media (max-width: 1380px){
 
     #section03 .technologySlideWrap{margin: 0 0 0 20px;}
-    #section03 .technologySlideWrap .technologySlide{}
+    #section03 .technologySlideWrap .count{margin-top: 30px; position: static; transform: none;}
 
 }
 
@@ -109,6 +112,7 @@
     #section03 .technologySlideWrap .technologySlide{width: 100%; margin: 0;}
     #section03 .technologySlideWrap .textWrap h3{font-size: 22px;}
     #section03 .technologySlideWrap .textWrap .subText01{font-size: 18px;}
+    #section03 .technologySlideWrap .count{margin-top: 15px;}
 
 }
 
