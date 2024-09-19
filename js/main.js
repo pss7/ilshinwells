@@ -41,4 +41,23 @@ $(function () {
         ]
     });
 
+
 });
+
+$(window).scroll(function(){
+
+    var scrollPosition = $(this).scrollTop() + $(this).height() / 2;
+
+    $('#section05').each(function() {
+        var sectionTop = $(this).offset().top;
+        var sectionBottom = sectionTop + $(this).outerHeight();
+
+        if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+            $(this).addClass('active');
+        } else {
+            $(this).removeClass('active');
+        }
+    });
+
+});
+
