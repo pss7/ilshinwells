@@ -25,7 +25,24 @@
 
 }
 
+/* section01 */
+#section01{position: relative; height: 100vh; overflow: hidden;}
+#section01 video{position: absolute; top:0; left:0; display: block; width: 100%; height: 100%; object-fit: cover;}
 
+/* @media (max-width: 1024px){
+    
+    #section01{ height: auto; padding-top: 55%; }
+
+}
+
+@media (max-width: 576px){
+
+    #section01{padding-top: 63%; }
+
+} */
+
+
+/* section02 */
 #section02 .cardLinkWrap{display: flex; height: 50.52vw;}
 #section02 .cardLinkWrap li{padding: 8.59vw 0 0 5.21vw; position: relative; flex: 1; background: no-repeat center/cover; transition: all .5s; cursor: pointer;}
 #section02 .cardLinkWrap li.active.box{height: 100vh!important;}
